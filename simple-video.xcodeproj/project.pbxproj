@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D5D80B892C31A3480027C852 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = D5D80B882C31A3480027C852 /* RealityKitContent */; };
 		D5D80B8B2C31A3480027C852 /* simple_videoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D80B8A2C31A3480027C852 /* simple_videoApp.swift */; };
 		D5D80B8D2C31A3480027C852 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D80B8C2C31A3480027C852 /* ContentView.swift */; };
 		D5D80B8F2C31A3490027C852 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5D80B8E2C31A3490027C852 /* Assets.xcassets */; };
@@ -18,7 +17,6 @@
 
 /* Begin PBXFileReference section */
 		D5D80B832C31A3480027C852 /* simple-video.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "simple-video.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5D80B872C31A3480027C852 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		D5D80B8A2C31A3480027C852 /* simple_videoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simple_videoApp.swift; sourceTree = "<group>"; };
 		D5D80B8C2C31A3480027C852 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D5D80B8E2C31A3490027C852 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -33,7 +31,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5D80B892C31A3480027C852 /* RealityKitContent in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,7 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				D5D80B852C31A3480027C852 /* simple-video */,
-				D5D80B862C31A3480027C852 /* Packages */,
 				D5D80B842C31A3480027C852 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,14 +65,6 @@
 				D5D80B9B2C31A7230027C852 /* PlayerViewController.swift */,
 			);
 			path = "simple-video";
-			sourceTree = "<group>";
-		};
-		D5D80B862C31A3480027C852 /* Packages */ = {
-			isa = PBXGroup;
-			children = (
-				D5D80B872C31A3480027C852 /* RealityKitContent */,
-			);
-			path = Packages;
 			sourceTree = "<group>";
 		};
 		D5D80B902C31A3490027C852 /* Preview Content */ = {
@@ -104,7 +92,6 @@
 			);
 			name = "simple-video";
 			packageProductDependencies = (
-				D5D80B882C31A3480027C852 /* RealityKitContent */,
 			);
 			productName = "simple-video";
 			productReference = D5D80B832C31A3480027C852 /* simple-video.app */;
@@ -301,6 +288,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Simple Video Pl";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.video";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -327,6 +316,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Simple Video Pl";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.video";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -363,13 +354,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		D5D80B882C31A3480027C852 /* RealityKitContent */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = RealityKitContent;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D5D80B7B2C31A3480027C852 /* Project object */;
 }
