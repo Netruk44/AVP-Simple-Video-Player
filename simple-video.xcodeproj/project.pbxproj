@@ -12,6 +12,8 @@
 		D5D80B8D2C31A3480027C852 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D80B8C2C31A3480027C852 /* ContentView.swift */; };
 		D5D80B8F2C31A3490027C852 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5D80B8E2C31A3490027C852 /* Assets.xcassets */; };
 		D5D80B922C31A3490027C852 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5D80B912C31A3490027C852 /* Preview Assets.xcassets */; };
+		D5D80B9A2C31A3590027C852 /* DocumentPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D80B992C31A3590027C852 /* DocumentPicker.swift */; };
+		D5D80B9C2C31A7230027C852 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D80B9B2C31A7230027C852 /* PlayerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		D5D80B8E2C31A3490027C852 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5D80B912C31A3490027C852 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D5D80B932C31A3490027C852 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5D80B992C31A3590027C852 /* DocumentPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentPicker.swift; sourceTree = "<group>"; };
+		D5D80B9B2C31A7230027C852 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				D5D80B8E2C31A3490027C852 /* Assets.xcassets */,
 				D5D80B932C31A3490027C852 /* Info.plist */,
 				D5D80B902C31A3490027C852 /* Preview Content */,
+				D5D80B992C31A3590027C852 /* DocumentPicker.swift */,
+				D5D80B9B2C31A7230027C852 /* PlayerViewController.swift */,
 			);
 			path = "simple-video";
 			sourceTree = "<group>";
@@ -155,6 +161,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5D80B8D2C31A3480027C852 /* ContentView.swift in Sources */,
+				D5D80B9C2C31A7230027C852 /* PlayerViewController.swift in Sources */,
+				D5D80B9A2C31A3590027C852 /* DocumentPicker.swift in Sources */,
 				D5D80B8B2C31A3480027C852 /* simple_videoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
